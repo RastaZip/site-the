@@ -11,7 +11,7 @@
     - button:hover
     - border
 
-    - icon              #5ee077
+    - icon              #57A515
 
 */
 
@@ -64,7 +64,7 @@ h2{
 h2:after{
     display: block;
     height: 2px;
-    background-color: #5ee077;
+    background-color: #57A515;
     width: 100px;
     content: '';
     margin: 0 auto;
@@ -96,10 +96,21 @@ header{
     background-size: cover;
 }
 
+header nav img{
+    width: 35px;
+    position: relative;
+    left: -10px;
+    top: -3px;
+}
+
 .home-title{
     position: absolute;
     top: 30%;
     width: auto;
+}
+
+.home-title p{
+    color: #fff;
 }
 
 .home-title h1{
@@ -125,7 +136,7 @@ header{
 
 .btn-full{
     background-color: azure;
-    color: #5ee077;
+    color: #57A515;
     margin-right: 15px;
 }
 
@@ -135,18 +146,18 @@ header{
 }
 
 .btn-full:hover{
-    background-color: #5ee077;
+    background-color: #57A515;
     color: #fff;
 }
 
 .btn-ghost:hover{
-    background-color: #5ee077;
-    border: 1px solid #5ee077;
+    background-color: #57A515;
+    border: 1px solid #57A515;
     color: #fff;
 }
 
 .btn-pack{
-    background-color: #5ee077;
+    background-color: #57A515;
     color: #fff;
     margin-bottom: 20px;
 }
@@ -165,7 +176,7 @@ header{
 
 .produits-plus:hover .produits-icon{
     color: #2a6235;
-    transform: translateX(20px);
+    transform: translateX(10px);
 }
 
 .produits-img{
@@ -175,7 +186,7 @@ header{
 
 .produits-icon{
     font-size: 190%;
-    color: #5ee077;
+    color: #57A515;
     transition: all 1s;
 }
 
@@ -291,7 +302,7 @@ cite img{
 }
 
 .pack h3{
-    color: #5ee077;
+    color: #57A515;
     font-weight: 400;
 }
 
@@ -342,7 +353,7 @@ cite img{
     border-radius: 10px;
     padding: 2px;
     text-align: center;
-    color: #5ee077;
+    color: #57A515;
 }
 
 /* CONTACT
